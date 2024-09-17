@@ -93,7 +93,9 @@ int bookAppointment()
    int isBooked = 1;
    if(arr[index] == 0) 
       isBooked = 0;
-      
+
+//currenly this isn't working, it just kinda bloks you out of booking
+
    if(isBooked ==1)
    {
    	cout<<"\n Error : Appointment is already booked for this Hour";
